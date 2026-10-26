@@ -612,21 +612,20 @@
       }
 
       @media (max-width: 576px) {
-        /* Updated mobile header layout */
         .header-content {
-          flex-direction: row; /* Keep as row */
-          justify-content: flex-start; /* Space items */
+          flex-direction: row;
+          justify-content: flex-start;
           align-items: center;
-          text-align: right; /* Aligns the logo text to the right */
+          text-align: right;
         }
 
         .logo {
           margin-left: 20px;
-          order: 2; /* Places the logo on the right */
+          order: 2;
         }
 
         .mobile-menu-btn {
-          order: 1; /* Places the hamburger menu on the left */
+          order: 1;
           display: block;
         }
 
@@ -761,30 +760,60 @@
         <div class="timeline">
           <div class="experience-item right">
             <div class="experience-content">
-              <div class="experience-date">sep 2022 - Present</div>
-              <h3 class="experience-position">Software Engineer</h3>
+              <div class="experience-date">Jun 2026 - Present</div>
+              <h3 class="experience-position">Associate Consultant (.NET Full Stack Developer)</h3>
+              <div class="experience-company">
+                Infosys, Hyderabad, Telangana
+              </div>
+              <div class="experience-desc">
+                <ul>
+                  <li>
+                    Working on a high-volume trading application for Charles Schwab using .NET Core Web APIs, ASP.NET MVC, Angular 19, Kafka, Aerospike and Splunk.
+                  </li>
+                  <li>
+                    Developed and integrated full-stack features and APIs with a focus on scalability, performance, and reliability.
+                  </li>
+                  <li>
+                    Maintained upstream and downstream integrations and transaction processing for millions of transactions and events every day.
+                  </li>
+                  <li>
+                    Used Kafka for event-driven communication and Aerospike for high-performance data storage and retrieval.
+                  </li>
+                  <li>
+                    Used Splunk for monitoring, log analysis, and production troubleshooting while following Agile methodology with Jira.
+                  </li>
+                  <li>
+                    Contributing to the AI-driven software development lifecycle through custom Copilot/AI agents for code generation, review, and documentation.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-item right" style="margin-top: 20px;">
+            <div class="experience-content">
+              <div class="experience-date">Sep 2022 - Jun 2026</div>
+              <h3 class="experience-position">Software Engineer (Promoted from Associate Software Engineer)</h3>
               <div class="experience-company">
                 Infinite Computer Solutions, Visakhapatnam
               </div>
               <div class="experience-desc">
                 <ul>
                   <li>
-                    Collaborated closely with engineers, designers, and product
-                    managers to ensure seamless integration and enhance platform
-                    performance, boosting team efficiency by 20%. Contributed to
-                    backend architecture and feature development using C#, .NET
-                    Framework, .NET Core, and ASP.NET MVC, resulting in a 30%
-                    improvement in system performance. Developed dynamic,
-                    responsive user interfaces with ReactJS and AngularJS,
-                    ensuring smooth frontend-backend integration. Additionally,
-                    designed and optimized SQL Server databases, writing complex
-                    queries and stored procedures that reduced data retrieval
-                    time by 15%.
+                    Built and supported BrassRing, an enterprise Applicant Tracking System (ATS), with end-to-end application development and production support.
+                  </li>
+                  <li>
+                    Worked on backend and frontend features using .NET Core, ASP.NET MVC, C#, Angular, and React while improving application stability and performance.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to deliver scalable solutions and support business requirements in Agile delivery cycles.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
@@ -845,7 +874,7 @@
               <div class="project-date">January 2024 - February 2024</div>
               <div class="project-desc">
                 <p>
-                  Designed and implemented a cookie consent banner to comply with privacy policies and enhance user transparency. Integrated local storage logic to remember user preferences, ensured non-intrusive UI placement, and followed modern UX patterns for accessibility and responsiveness.
+                  Designed and implemented a cookie consent banner to comply with privacy policies and enhance user transparency. Integrated local storage logic to remember user preferences, ensuring non-intrusive UI placement, and followed modern UX patterns for accessibility and responsiveness.
                 </p>
                 <div class="tech-stack">
                   <span class="tech">JavaScript</span>
@@ -978,7 +1007,7 @@
             </div>
             <div class="project-content">
               <h3 class="project-title">Similar Job Recommendations with Archill API</h3>
-              <div class="project-date">jan 2025 – feb 2025</div>
+              <div class="project-date">Jan 2025 – Feb 2025</div>
               <div class="project-desc">
                 <p>
                   Developed a job recommendation feature where job details are indexed and sent to the Archill API, which returns a list of similar jobs. These similar jobs are displayed in the UI as horizontally scrollable cards. Implemented the backend using ASP.NET and SQL Server, and built the frontend using AngularJS with responsive card-based design.
@@ -995,18 +1024,20 @@
               </div>
             </div>
           </div>
-                    
+        </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="section">
       <div class="container">
         <h2 class="section-title">Education</h2>
+        <div class="education-container">
           <div class="education-card">
             <div class="education-date">July 2019 - March 2022</div>
             <h3 class="education-degree">Electrical and Electronics Engineering</h3>
-            <div class="education-institution">Narasaraopet Engineering College</div>
-            <div class="education-location">Narasaraopet</div>
+            <div class="education-institution">Narasaropet Engineering College</div>
+            <div class="education-location">Narasaropet</div>
           </div>
         </div>
       </div>
@@ -1019,38 +1050,19 @@
         <div class="contact-form">
           <div class="form-group">
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              class="form-control"
-              placeholder="Your Name"
-            />
+            <input type="text" id="name" class="form-control" placeholder="Your Name" />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              class="form-control"
-              placeholder="Your Email"
-            />
+            <input type="email" id="email" class="form-control" placeholder="Your Email" />
           </div>
           <div class="form-group">
             <label for="subject">Subject</label>
-            <input
-              type="text"
-              id="subject"
-              class="form-control"
-              placeholder="Subject"
-            />
+            <input type="text" id="subject" class="form-control" placeholder="Subject" />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea
-              id="message"
-              class="form-control"
-              placeholder="Your Message"
-            ></textarea>
+            <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
           </div>
           <button type="submit" class="btn">Send Message</button>
         </div>
@@ -1061,21 +1073,21 @@
     <footer>
       <div class="container footer-content">
         <div class="social-links">
-          <a
-            href="https://linkedin.com/in/aniket-kadu-811304252"
-            target="_blank"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/aniketkadu0" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="mailto:aniketkadu765@gmail.com"
-            ><i class="fas fa-envelope"></i
-          ></a>
-          <a href="tel:+919653434889"><i class="fas fa-phone"></i></a>
+          <a href="https://www.linkedin.com/in/anvesh-j-4525571b5/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Nani94944" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:Jgmanvesh@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:+919121232760">
+            <i class="fas fa-phone"></i>
+          </a>
         </div>
         <div class="copyright">
-          &copy; 2025 Aniket Kadu. All Rights Reserved.
+          © 2025 Aniket Kadu. All rights reserved.
         </div>
       </div>
     </footer>
@@ -1103,7 +1115,7 @@
 
       // Form Submission (Demo)
       document
-        .querySelector(".contact-form button")
+        .querySelector(".contact-form .btn")
         .addEventListener("click", function (e) {
           e.preventDefault();
           const name = document.getElementById("name").value;
@@ -1123,40 +1135,6 @@
             alert("Please fill in all fields before submitting.");
           }
         });
-
-      // Scroll Animation
-      window.addEventListener("scroll", function () {
-        const header = document.getElementById("header");
-        if (window.scrollY > 100) {
-          header.style.boxShadow = "0 5px 15px rgba(0,0,0,0.1)";
-        } else {
-          header.style.boxShadow = "0 2px 10px rgba(0,0,0,0.1)";
-        }
-
-        // Add animation to sections when they come into view
-        const sections = document.querySelectorAll(".section");
-        sections.forEach((section) => {
-          const sectionTop = section.getBoundingClientRect().top;
-          const windowHeight = window.innerHeight;
-          if (sectionTop < windowHeight - 100) {
-            section.style.opacity = 1;
-            section.style.transform = "translateY(0)";
-          }
-        });
-      });
-
-      // Initialize section animations
-      document.addEventListener("DOMContentLoaded", function () {
-        const sections = document.querySelectorAll(".section");
-        sections.forEach((section) => {
-          section.style.opacity = 0;
-          section.style.transform = "translateY(20px)";
-          section.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-        });
-
-        // Trigger scroll event to animate sections in initial view
-        window.dispatchEvent(new Event("scroll"));
-      });
     </script>
   </body>
 </html>
